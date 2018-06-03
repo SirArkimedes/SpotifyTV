@@ -11,6 +11,9 @@
 		4D0F727B20C3CD0F00FA05CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F727A20C3CD0F00FA05CE /* ViewController.swift */; };
 		4D0F727E20C3CD0F00FA05CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F727C20C3CD0F00FA05CE /* Main.storyboard */; };
 		4D0F728020C3CD1200FA05CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F727F20C3CD1200FA05CE /* Assets.xcassets */; };
+		4D2C75EF20C40EC20000167B /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C75EE20C40EC20000167B /* SpotifyAudioPlayback.framework */; };
+		4D2C75F220C40FD40000167B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C75F120C40FD40000167B /* AVFoundation.framework */; };
+		4D2C75F420C40FEC0000167B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C75F320C40FEC0000167B /* SystemConfiguration.framework */; };
 		A09F387C7C623CB428446472 /* Pods_SpotifyTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DED1A1D6D9DF792B2115E4 /* Pods_SpotifyTV.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,10 @@
 		4D0F727D20C3CD0F00FA05CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0F727F20C3CD1200FA05CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D0F728120C3CD1200FA05CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2C75EE20C40EC20000167B /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		4D2C75F020C40F2F0000167B /* SpotifyTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D2C75F120C40FD40000167B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4D2C75F320C40FEC0000167B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5255B3AC116416EE6B9808CA /* Pods-SpotifyTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifyTV/Pods-SpotifyTV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -31,7 +38,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2C75F420C40FEC0000167B /* SystemConfiguration.framework in Frameworks */,
+				4D2C75F220C40FD40000167B /* AVFoundation.framework in Frameworks */,
 				A09F387C7C623CB428446472 /* Pods_SpotifyTV.framework in Frameworks */,
+				4D2C75EF20C40EC20000167B /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +51,8 @@
 		2E1A2343DEA02576CE91DDC4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D2C75F320C40FEC0000167B /* SystemConfiguration.framework */,
+				4D2C75F120C40FD40000167B /* AVFoundation.framework */,
 				39DED1A1D6D9DF792B2115E4 /* Pods_SpotifyTV.framework */,
 			);
 			name = Frameworks;
@@ -72,6 +84,8 @@
 				4D0F727C20C3CD0F00FA05CE /* Main.storyboard */,
 				4D0F727F20C3CD1200FA05CE /* Assets.xcassets */,
 				4D0F728120C3CD1200FA05CE /* Info.plist */,
+				4D2C75EE20C40EC20000167B /* SpotifyAudioPlayback.framework */,
+				4D2C75F020C40F2F0000167B /* SpotifyTV-Bridging-Header.h */,
 			);
 			path = SpotifyTV;
 			sourceTree = "<group>";
@@ -357,7 +371,7 @@
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xYello.SpotifyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyTV/SpotifyTV-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
@@ -384,7 +398,7 @@
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xYello.SpotifyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyTV/SpotifyTV-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.0;
