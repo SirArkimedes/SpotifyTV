@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - AlamoRecord (1.1.1):
+    - AlamofireObjectMapper (~> 5.0)
+  - ObjectMapper (3.2.0)
+  - Spartan (1.1.0):
+    - AlamoRecord (~> 1.1.1)
+  - Voucher (0.2.1)
+
+DEPENDENCIES:
+  - Spartan (from `https://github.com/finngaida/Spartan.git`)
+  - Voucher (from `https://github.com/DoubleNodeOpen/Voucher.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - AlamoRecord
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  Spartan:
+    :git: https://github.com/finngaida/Spartan.git
+  Voucher:
+    :git: https://github.com/DoubleNodeOpen/Voucher.git
+
+CHECKOUT OPTIONS:
+  Spartan:
+    :commit: 10b274c0426ce7f2e7655b6f4a72e301d952ad47
+    :git: https://github.com/finngaida/Spartan.git
+  Voucher:
+    :commit: 740fd1fe29574bf8afc3b5c62df6d61f346dff67
+    :git: https://github.com/DoubleNodeOpen/Voucher.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  AlamoRecord: 78653b9a5da21ab5bb723167e0f552994df85d30
+  ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+  Spartan: f2b8e03ed1f2ed6fb083f0453f159e64fd51619d
+  Voucher: f458e8cbf24138233f04e4ab822e9bd9012c3b8f
+
+PODFILE CHECKSUM: 46abee1fb5edf20bd362ebfd0427511dbf7a3293
+
+COCOAPODS: 1.5.3

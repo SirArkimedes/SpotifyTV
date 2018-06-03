@@ -1,0 +1,21 @@
+PODS:
+  - Voucher (0.2.1)
+
+DEPENDENCIES:
+  - Voucher (from `https://github.com/DoubleNodeOpen/Voucher.git`)
+
+EXTERNAL SOURCES:
+  Voucher:
+    :git: https://github.com/DoubleNodeOpen/Voucher.git
+
+CHECKOUT OPTIONS:
+  Voucher:
+    :commit: 740fd1fe29574bf8afc3b5c62df6d61f346dff67
+    :git: https://github.com/DoubleNodeOpen/Voucher.git
+
+SPEC CHECKSUMS:
+  Voucher: f458e8cbf24138233f04e4ab822e9bd9012c3b8f
+
+PODFILE CHECKSUM: 2cc79a23b528a8c541c9415dbfe801f9b4c92cd5
+
+COCOAPODS: 1.5.3

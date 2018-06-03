@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB67013EF38D89AEC727805332E1C72 /* VoucherStreamsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54FC0CAFECEC09CB46B8752947A86F5 /* VoucherStreamsController.m */; };
+		31548435B955CF77513ADB5E7CDC9836 /* VoucherServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E18697C0F4458D20E0FC1A03DCD7719D /* VoucherServer.m */; };
+		3AA4CDD4FE6B7E79B7C10EA2FE663B0A /* Pods-SpotifyTVAuthenticator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65925DC1BBAFF26E9258B0BCBD8FB12D /* Pods-SpotifyTVAuthenticator-dummy.m */; };
+		450E42CDA99F5C6B5945DE86F3EF6035 /* VoucherClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 18556A4285ECE401FFF31BF1412E00A1 /* VoucherClient.m */; };
+		5718DAF05A55DD9ACF3F2A545EEDB564 /* Voucher.h in Headers */ = {isa = PBXBuildFile; fileRef = 286BD82103ED86B48060D10F85DF9D04 /* Voucher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B55994B17830468D9C37CB4D759E81A /* VoucherStreamsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B96ED5EA91EAF6AE373245E42E9E7E6 /* VoucherStreamsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DCFD2CF066203E3BC6195B102236D95 /* Voucher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F1AFD3D684815EFE5DA906FA3DB95 /* Voucher-dummy.m */; };
+		9FA72F5C6C113A5F474B60655DDE0B08 /* VoucherClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 524651A402D2691D4E3E617D24B1BEF8 /* VoucherClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B46B6DDDD17851B798FB3C30BF5ACF60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BEA1399E7783B0B17989FD3C10C886CA /* VoucherCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4EAEE2B15600AEF385388980DB0B28 /* VoucherCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BAD7EA833D2012E8F1386603EA8516 /* Pods-SpotifyTVAuthenticator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97038FD12CCDD9DDE189BBDC21C568ED /* Pods-SpotifyTVAuthenticator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB08D38F8FDD07BE0BF5DA037B1A05BE /* VoucherServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA98374FD740E2F661CAEF94B01AD6B /* VoucherServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7BABD54C46B4EA121782E58000DC1AD /* Voucher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D7A397C599B27E35D0DA08F97A94A0 /* Voucher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF83EBAE4850C352DD5C76ADB0724598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3129406E488B0ED48C8C656DF04F0368 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9906C1BF9D6A78C862189CACC522D41D;
+			remoteInfo = Voucher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029ED98F723D611F46C22153D9848951 /* Pods-SpotifyTVAuthenticator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotifyTVAuthenticator-frameworks.sh"; sourceTree = "<group>"; };
+		08D7A397C599B27E35D0DA08F97A94A0 /* Voucher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Voucher-umbrella.h"; sourceTree = "<group>"; };
+		18556A4285ECE401FFF31BF1412E00A1 /* VoucherClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VoucherClient.m; path = Voucher/Client/VoucherClient.m; sourceTree = "<group>"; };
+		1A0F33ADEFEF9260BBB9ECADF97D263B /* Voucher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Voucher.xcconfig; sourceTree = "<group>"; };
+		1AD43DC6909C5D7AA4DA93C44966B908 /* Voucher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Voucher-prefix.pch"; sourceTree = "<group>"; };
+		27611F69645AB9AD3D2BC39FD6EB26D2 /* Pods_SpotifyTVAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpotifyTVAuthenticator.framework; path = "Pods-SpotifyTVAuthenticator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BD82103ED86B48060D10F85DF9D04 /* Voucher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Voucher.h; path = Voucher/Voucher.h; sourceTree = "<group>"; };
+		2FA98374FD740E2F661CAEF94B01AD6B /* VoucherServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoucherServer.h; path = Voucher/Server/VoucherServer.h; sourceTree = "<group>"; };
+		319ED969767AB28E30DB40F06BFE2493 /* Voucher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Voucher.modulemap; sourceTree = "<group>"; };
+		380D13D5E8319676A3AE64DC8738BB22 /* Pods-SpotifyTVAuthenticator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotifyTVAuthenticator-resources.sh"; sourceTree = "<group>"; };
+		43E4D60B176EA4F660D8964C901CCA7F /* Pods-SpotifyTVAuthenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotifyTVAuthenticator.release.xcconfig"; sourceTree = "<group>"; };
+		524651A402D2691D4E3E617D24B1BEF8 /* VoucherClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoucherClient.h; path = Voucher/Client/VoucherClient.h; sourceTree = "<group>"; };
+		587E36C959D98DF9D722584B94B25332 /* Pods-SpotifyTVAuthenticator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotifyTVAuthenticator-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A66067FF4D99084671A0024637FFEB8 /* Voucher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Voucher.framework; path = Voucher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B96ED5EA91EAF6AE373245E42E9E7E6 /* VoucherStreamsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoucherStreamsController.h; path = Voucher/VoucherStreamsController.h; sourceTree = "<group>"; };
+		65925DC1BBAFF26E9258B0BCBD8FB12D /* Pods-SpotifyTVAuthenticator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotifyTVAuthenticator-dummy.m"; sourceTree = "<group>"; };
+		696F8E216FA30092AC4CB2A080F0A1AF /* Pods-SpotifyTVAuthenticator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpotifyTVAuthenticator.modulemap"; sourceTree = "<group>"; };
+		77DCC8AF2C5C7A4E250A48BA4958798C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4081D5402765BC61E48D0602194790 /* Pods-SpotifyTVAuthenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotifyTVAuthenticator.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97038FD12CCDD9DDE189BBDC21C568ED /* Pods-SpotifyTVAuthenticator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotifyTVAuthenticator-umbrella.h"; sourceTree = "<group>"; };
+		9814590B0317DE4D485A6DE77A21F5A0 /* Pods-SpotifyTVAuthenticator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotifyTVAuthenticator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA852A1A4C16760E62D7F3EEB74017D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4EAEE2B15600AEF385388980DB0B28 /* VoucherCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoucherCommon.h; path = Voucher/VoucherCommon.h; sourceTree = "<group>"; };
+		E18697C0F4458D20E0FC1A03DCD7719D /* VoucherServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VoucherServer.m; path = Voucher/Server/VoucherServer.m; sourceTree = "<group>"; };
+		E19F1AFD3D684815EFE5DA906FA3DB95 /* Voucher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Voucher-dummy.m"; sourceTree = "<group>"; };
+		F54FC0CAFECEC09CB46B8752947A86F5 /* VoucherStreamsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VoucherStreamsController.m; path = Voucher/VoucherStreamsController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233D5041590743A194D9FF029DFFBF6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46B6DDDD17851B798FB3C30BF5ACF60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73551957A62BB01DEB64155854A74CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF83EBAE4850C352DD5C76ADB0724598 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B16626A8E46CFCCE762C6BF800A64AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E26A3E1F2CB5A96AE3575E1D6435186F /* Voucher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4B16626A8E46CFCCE762C6BF800A64AE /* Pods */,
+				CA57E7BFF2C704A857CB95FA8031451E /* Products */,
+				C6CFE8BCEF0A12BBC22D808A8AD3F00F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		820968B74C93CDCF35BE9D6FD497742A /* Pods-SpotifyTVAuthenticator */ = {
+			isa = PBXGroup;
+			children = (
+				77DCC8AF2C5C7A4E250A48BA4958798C /* Info.plist */,
+				696F8E216FA30092AC4CB2A080F0A1AF /* Pods-SpotifyTVAuthenticator.modulemap */,
+				9814590B0317DE4D485A6DE77A21F5A0 /* Pods-SpotifyTVAuthenticator-acknowledgements.markdown */,
+				587E36C959D98DF9D722584B94B25332 /* Pods-SpotifyTVAuthenticator-acknowledgements.plist */,
+				65925DC1BBAFF26E9258B0BCBD8FB12D /* Pods-SpotifyTVAuthenticator-dummy.m */,
+				029ED98F723D611F46C22153D9848951 /* Pods-SpotifyTVAuthenticator-frameworks.sh */,
+				380D13D5E8319676A3AE64DC8738BB22 /* Pods-SpotifyTVAuthenticator-resources.sh */,
+				97038FD12CCDD9DDE189BBDC21C568ED /* Pods-SpotifyTVAuthenticator-umbrella.h */,
+				8C4081D5402765BC61E48D0602194790 /* Pods-SpotifyTVAuthenticator.debug.xcconfig */,
+				43E4D60B176EA4F660D8964C901CCA7F /* Pods-SpotifyTVAuthenticator.release.xcconfig */,
+			);
+			name = "Pods-SpotifyTVAuthenticator";
+			path = "Target Support Files/Pods-SpotifyTVAuthenticator";
+			sourceTree = "<group>";
+		};
+		AEB82AA689228DE54687955F67D7A98A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA852A1A4C16760E62D7F3EEB74017D1 /* Info.plist */,
+				319ED969767AB28E30DB40F06BFE2493 /* Voucher.modulemap */,
+				1A0F33ADEFEF9260BBB9ECADF97D263B /* Voucher.xcconfig */,
+				E19F1AFD3D684815EFE5DA906FA3DB95 /* Voucher-dummy.m */,
+				1AD43DC6909C5D7AA4DA93C44966B908 /* Voucher-prefix.pch */,
+				08D7A397C599B27E35D0DA08F97A94A0 /* Voucher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Voucher";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6CFE8BCEF0A12BBC22D808A8AD3F00F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				820968B74C93CDCF35BE9D6FD497742A /* Pods-SpotifyTVAuthenticator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA57E7BFF2C704A857CB95FA8031451E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27611F69645AB9AD3D2BC39FD6EB26D2 /* Pods_SpotifyTVAuthenticator.framework */,
+				5A66067FF4D99084671A0024637FFEB8 /* Voucher.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26A3E1F2CB5A96AE3575E1D6435186F /* Voucher */ = {
+			isa = PBXGroup;
+			children = (
+				286BD82103ED86B48060D10F85DF9D04 /* Voucher.h */,
+				524651A402D2691D4E3E617D24B1BEF8 /* VoucherClient.h */,
+				18556A4285ECE401FFF31BF1412E00A1 /* VoucherClient.m */,
+				DC4EAEE2B15600AEF385388980DB0B28 /* VoucherCommon.h */,
+				2FA98374FD740E2F661CAEF94B01AD6B /* VoucherServer.h */,
+				E18697C0F4458D20E0FC1A03DCD7719D /* VoucherServer.m */,
+				5B96ED5EA91EAF6AE373245E42E9E7E6 /* VoucherStreamsController.h */,
+				F54FC0CAFECEC09CB46B8752947A86F5 /* VoucherStreamsController.m */,
+				AEB82AA689228DE54687955F67D7A98A /* Support Files */,
+			);
+			name = Voucher;
+			path = Voucher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9073C5A89D1D7AD0F97344A82C515936 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BABD54C46B4EA121782E58000DC1AD /* Voucher-umbrella.h in Headers */,
+				5718DAF05A55DD9ACF3F2A545EEDB564 /* Voucher.h in Headers */,
+				9FA72F5C6C113A5F474B60655DDE0B08 /* VoucherClient.h in Headers */,
+				BEA1399E7783B0B17989FD3C10C886CA /* VoucherCommon.h in Headers */,
+				DB08D38F8FDD07BE0BF5DA037B1A05BE /* VoucherServer.h in Headers */,
+				7B55994B17830468D9C37CB4D759E81A /* VoucherStreamsController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B4B2215ECD487E0E82C824B8B58AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BAD7EA833D2012E8F1386603EA8516 /* Pods-SpotifyTVAuthenticator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		808334A46C97BD3181CC683D06D473C7 /* Pods-SpotifyTVAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA5097AD028054C6F315C617BA59579 /* Build configuration list for PBXNativeTarget "Pods-SpotifyTVAuthenticator" */;
+			buildPhases = (
+				B463424CFA163B41DF228151B28B754F /* Sources */,
+				233D5041590743A194D9FF029DFFBF6B /* Frameworks */,
+				EF8B4B2215ECD487E0E82C824B8B58AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E716CB2ED332256C5521821489FC6C /* PBXTargetDependency */,
+			);
+			name = "Pods-SpotifyTVAuthenticator";
+			productName = "Pods-SpotifyTVAuthenticator";
+			productReference = 27611F69645AB9AD3D2BC39FD6EB26D2 /* Pods_SpotifyTVAuthenticator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9906C1BF9D6A78C862189CACC522D41D /* Voucher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B523C1D247BC996DC1D44EB080092AE /* Build configuration list for PBXNativeTarget "Voucher" */;
+			buildPhases = (
+				CE22ADDE0EAD3785B34A852968BE114D /* Sources */,
+				73551957A62BB01DEB64155854A74CE9 /* Frameworks */,
+				9073C5A89D1D7AD0F97344A82C515936 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voucher;
+			productName = Voucher;
+			productReference = 5A66067FF4D99084671A0024637FFEB8 /* Voucher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CA57E7BFF2C704A857CB95FA8031451E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808334A46C97BD3181CC683D06D473C7 /* Pods-SpotifyTVAuthenticator */,
+				9906C1BF9D6A78C862189CACC522D41D /* Voucher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B463424CFA163B41DF228151B28B754F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AA4CDD4FE6B7E79B7C10EA2FE663B0A /* Pods-SpotifyTVAuthenticator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE22ADDE0EAD3785B34A852968BE114D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCFD2CF066203E3BC6195B102236D95 /* Voucher-dummy.m in Sources */,
+				450E42CDA99F5C6B5945DE86F3EF6035 /* VoucherClient.m in Sources */,
+				31548435B955CF77513ADB5E7CDC9836 /* VoucherServer.m in Sources */,
+				2EB67013EF38D89AEC727805332E1C72 /* VoucherStreamsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E716CB2ED332256C5521821489FC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Voucher;
+			target = 9906C1BF9D6A78C862189CACC522D41D /* Voucher */;
+			targetProxy = 3129406E488B0ED48C8C656DF04F0368 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8046E1A222452F1BB498D5DE7066D756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4081D5402765BC61E48D0602194790 /* Pods-SpotifyTVAuthenticator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotifyTVAuthenticator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotifyTVAuthenticator/Pods-SpotifyTVAuthenticator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE49CF62FB231A360A49DA7793691216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0F33ADEFEF9260BBB9ECADF97D263B /* Voucher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Voucher/Voucher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Voucher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Voucher/Voucher.modulemap";
+				PRODUCT_MODULE_NAME = Voucher;
+				PRODUCT_NAME = Voucher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1CD7C6A0C67EE36E650F6EB0DE6C16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A0F33ADEFEF9260BBB9ECADF97D263B /* Voucher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Voucher/Voucher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Voucher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Voucher/Voucher.modulemap";
+				PRODUCT_MODULE_NAME = Voucher;
+				PRODUCT_NAME = Voucher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3FEFA23B1BDFBCEB9628AC9B60CB311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E4D60B176EA4F660D8964C901CCA7F /* Pods-SpotifyTVAuthenticator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotifyTVAuthenticator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotifyTVAuthenticator/Pods-SpotifyTVAuthenticator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA5097AD028054C6F315C617BA59579 /* Build configuration list for PBXNativeTarget "Pods-SpotifyTVAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8046E1A222452F1BB498D5DE7066D756 /* Debug */,
+				E3FEFA23B1BDFBCEB9628AC9B60CB311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B523C1D247BC996DC1D44EB080092AE /* Build configuration list for PBXNativeTarget "Voucher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CD7C6A0C67EE36E650F6EB0DE6C16B /* Debug */,
+				AE49CF62FB231A360A49DA7793691216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

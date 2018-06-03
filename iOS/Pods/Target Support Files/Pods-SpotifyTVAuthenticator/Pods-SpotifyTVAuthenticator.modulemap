@@ -1,0 +1,6 @@
+framework module Pods_SpotifyTVAuthenticator {
+  umbrella header "Pods-SpotifyTVAuthenticator-umbrella.h"
+
+  export *
+  module * { export * }
+}

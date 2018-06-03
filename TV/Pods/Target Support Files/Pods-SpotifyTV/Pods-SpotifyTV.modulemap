@@ -1,0 +1,6 @@
+framework module Pods_SpotifyTV {
+  umbrella header "Pods-SpotifyTV-umbrella.h"
+
+  export *
+  module * { export * }
+}

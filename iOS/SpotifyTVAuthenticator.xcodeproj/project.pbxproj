@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0F729720C3D33400FA05CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F729620C3D33400FA05CE /* AppDelegate.swift */; };
+		4D0F729920C3D33400FA05CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F729820C3D33400FA05CE /* ViewController.swift */; };
+		4D0F729C20C3D33400FA05CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F729A20C3D33400FA05CE /* Main.storyboard */; };
+		4D0F729E20C3D33500FA05CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F729D20C3D33500FA05CE /* Assets.xcassets */; };
+		4D0F72A120C3D33500FA05CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F729F20C3D33500FA05CE /* LaunchScreen.storyboard */; };
+		4D5415D320C3D3B10005A8A6 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5415D220C3D3B10005A8A6 /* SpotifyAuthentication.framework */; };
+		545D99BC7E8334573640EC08 /* Pods_SpotifyTVAuthenticator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC9C9DF5099EDDDEE8D7F0D /* Pods_SpotifyTVAuthenticator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D0F729320C3D33400FA05CE /* SpotifyTVAuthenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyTVAuthenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0F729620C3D33400FA05CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D0F729820C3D33400FA05CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D0F729B20C3D33400FA05CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D0F729D20C3D33500FA05CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D0F72A020C3D33500FA05CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D0F72A220C3D33500FA05CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5415D220C3D3B10005A8A6 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		4D5415D520C3D3EC0005A8A6 /* SpotifyTVAuthenticator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyTVAuthenticator-Bridging-Header.h"; sourceTree = "<group>"; };
+		6EC9C9DF5099EDDDEE8D7F0D /* Pods_SpotifyTVAuthenticator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotifyTVAuthenticator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB891F05924BE270906DE5E /* Pods-SpotifyTVAuthenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyTVAuthenticator.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifyTVAuthenticator/Pods-SpotifyTVAuthenticator.release.xcconfig"; sourceTree = "<group>"; };
+		E494DE5C8608FCA6AFF8571D /* Pods-SpotifyTVAuthenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotifyTVAuthenticator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotifyTVAuthenticator/Pods-SpotifyTVAuthenticator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D0F729020C3D33400FA05CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5415D320C3D3B10005A8A6 /* SpotifyAuthentication.framework in Frameworks */,
+				545D99BC7E8334573640EC08 /* Pods_SpotifyTVAuthenticator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0F728A20C3D33400FA05CE = {
+			isa = PBXGroup;
+			children = (
+				4D0F729520C3D33400FA05CE /* SpotifyTVAuthenticator */,
+				4D0F729420C3D33400FA05CE /* Products */,
+				CA14C5673804D053DA4F7670 /* Pods */,
+				EF6698D82042A0D7D803073E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D0F729420C3D33400FA05CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D0F729320C3D33400FA05CE /* SpotifyTVAuthenticator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D0F729520C3D33400FA05CE /* SpotifyTVAuthenticator */ = {
+			isa = PBXGroup;
+			children = (
+				4DA1FB9F20C3E0AD008E3EAE /* Frameworks */,
+				4D0F729620C3D33400FA05CE /* AppDelegate.swift */,
+				4D0F729820C3D33400FA05CE /* ViewController.swift */,
+				4D0F729A20C3D33400FA05CE /* Main.storyboard */,
+				4D0F729D20C3D33500FA05CE /* Assets.xcassets */,
+				4D0F729F20C3D33500FA05CE /* LaunchScreen.storyboard */,
+				4D0F72A220C3D33500FA05CE /* Info.plist */,
+			);
+			path = SpotifyTVAuthenticator;
+			sourceTree = "<group>";
+		};
+		4DA1FB9F20C3E0AD008E3EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D5415D520C3D3EC0005A8A6 /* SpotifyTVAuthenticator-Bridging-Header.h */,
+				4D5415D220C3D3B10005A8A6 /* SpotifyAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA14C5673804D053DA4F7670 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E494DE5C8608FCA6AFF8571D /* Pods-SpotifyTVAuthenticator.debug.xcconfig */,
+				CDB891F05924BE270906DE5E /* Pods-SpotifyTVAuthenticator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF6698D82042A0D7D803073E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9C9DF5099EDDDEE8D7F0D /* Pods_SpotifyTVAuthenticator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D0F729220C3D33400FA05CE /* SpotifyTVAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D0F72A520C3D33500FA05CE /* Build configuration list for PBXNativeTarget "SpotifyTVAuthenticator" */;
+			buildPhases = (
+				085B56107A845CBD59B0DAEB /* [CP] Check Pods Manifest.lock */,
+				4D0F728F20C3D33400FA05CE /* Sources */,
+				4D0F729020C3D33400FA05CE /* Frameworks */,
+				4D0F729120C3D33400FA05CE /* Resources */,
+				862275C7A39761601B01E8B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyTVAuthenticator;
+			productName = SpotifyTVAuthenticator;
+			productReference = 4D0F729320C3D33400FA05CE /* SpotifyTVAuthenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D0F728B20C3D33400FA05CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "xYello, Inc.";
+				TargetAttributes = {
+					4D0F729220C3D33400FA05CE = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 4D0F728E20C3D33400FA05CE /* Build configuration list for PBXProject "SpotifyTVAuthenticator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D0F728A20C3D33400FA05CE;
+			productRefGroup = 4D0F729420C3D33400FA05CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D0F729220C3D33400FA05CE /* SpotifyTVAuthenticator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D0F729120C3D33400FA05CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0F72A120C3D33500FA05CE /* LaunchScreen.storyboard in Resources */,
+				4D0F729E20C3D33500FA05CE /* Assets.xcassets in Resources */,
+				4D0F729C20C3D33400FA05CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085B56107A845CBD59B0DAEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpotifyTVAuthenticator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		862275C7A39761601B01E8B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpotifyTVAuthenticator/Pods-SpotifyTVAuthenticator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Voucher/Voucher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Voucher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotifyTVAuthenticator/Pods-SpotifyTVAuthenticator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D0F728F20C3D33400FA05CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0F729920C3D33400FA05CE /* ViewController.swift in Sources */,
+				4D0F729720C3D33400FA05CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D0F729A20C3D33400FA05CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0F729B20C3D33400FA05CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D0F729F20C3D33500FA05CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D0F72A020C3D33500FA05CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D0F72A320C3D33500FA05CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D0F72A420C3D33500FA05CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D0F72A620C3D33500FA05CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E494DE5C8608FCA6AFF8571D /* Pods-SpotifyTVAuthenticator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 665Y3S9688;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifyTVAuthenticator",
+				);
+				INFOPLIST_FILE = SpotifyTVAuthenticator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xYello.SpotifyTVAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyTVAuthenticator/SpotifyTVAuthenticator-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D0F72A720C3D33500FA05CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB891F05924BE270906DE5E /* Pods-SpotifyTVAuthenticator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 665Y3S9688;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifyTVAuthenticator",
+				);
+				INFOPLIST_FILE = SpotifyTVAuthenticator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-Objc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xYello.SpotifyTVAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyTVAuthenticator/SpotifyTVAuthenticator-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D0F728E20C3D33400FA05CE /* Build configuration list for PBXProject "SpotifyTVAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0F72A320C3D33500FA05CE /* Debug */,
+				4D0F72A420C3D33500FA05CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D0F72A520C3D33500FA05CE /* Build configuration list for PBXNativeTarget "SpotifyTVAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D0F72A620C3D33500FA05CE /* Debug */,
+				4D0F72A720C3D33500FA05CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D0F728B20C3D33400FA05CE /* Project object */;
+}
