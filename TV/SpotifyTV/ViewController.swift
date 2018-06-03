@@ -45,7 +45,7 @@ class ViewController: UIViewController {
 
                 Spartan.getPlaylistTracks(userId: user.uri, playlistId: pagingObject.items[0].id as! String, limit: 20, offset: 0, fields: [], market: .us, success: { (pagingObject) in
 
-                    self.sPlayer?.playSpotifyURI(pagingObject.items[0].track.uri, startingWith: 0, startingWithPosition: 0, callback: { (error) in
+                    self.sPlayer?.playSpotifyURI(pagingObject.items.last!.track.uri, startingWith: 0, startingWithPosition: 0, callback: { (error) in
                         if let error = error {
                             print(error.localizedDescription)
                         }
