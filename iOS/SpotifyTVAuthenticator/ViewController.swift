@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     private var safari: SFSafariViewController!
 
     private var token = ""
-    private var server = VoucherServer(uniqueSharedId: "123980-a8sdfj;")
+    private var server = VoucherServer(uniqueSharedId: "asdfkqwerpoi;uqwer")
 
     override func viewDidLoad() {
         super.viewDidLoad()
